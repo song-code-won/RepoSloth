@@ -1,0 +1,17 @@
+Explain the following source code file from repository '{repo_name}'.
+
+File Path: {file_path}
+Language: {language}
+Line Count: {line_count}
+
+Source Code:
+```{language}
+{file_content}
+```
+
+Provide a comprehensive, developer-friendly explanation structured as:
+1. **Simple-Language Summary**: What role does this file play in the application?
+2. **Key Functions & Classes**: With their purpose, inputs, and outputs (cite line numbers where evident).
+3. **Dependencies & Imports**: Internal project imports vs. external packages.
+4. **Key Implementation Details & Logic Flow**: How it works under the hood.
+5. **Potential Edge Cases, Complexities, or Failure Modes**: Boundary conditions or error handling notes.

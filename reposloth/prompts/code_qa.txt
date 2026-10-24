@@ -1,0 +1,14 @@
+You are answering a developer's question about the repository '{repo_name}'.
+
+Question: "{user_question}"
+
+Retrieved Context Snippets from Repository (Grounded Source Evidence):
+{retrieved_snippets}
+
+INSTRUCTIONS:
+1. Answer the question directly using ONLY the context provided above and repository structure.
+2. Explicitly cite the supporting file paths and line ranges (e.g., `services/auth.py#L24-L38`).
+3. If the retrieved snippets DO NOT contain sufficient evidence to answer the question, state honestly:
+   "The repository does not contain sufficient evidence to confirm this. Here is what was observed..."
+   Do NOT hallucinate or guess non-existent files or endpoints.
+4. Format your answer with clean Markdown, bullet points, and code snippets where helpful.

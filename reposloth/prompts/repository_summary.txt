@@ -1,0 +1,30 @@
+Analyze the following repository structure and evidence:
+
+Repository Name: {repo_name}
+Total Files: {total_files} | Total Lines of Code: {total_lines}
+Language Breakdown:
+{language_summary}
+
+Detected Manifests and Dependencies:
+{manifest_summary}
+
+Candidate Entrypoints:
+{entrypoint_summary}
+
+Directory Layout & Key Files:
+{file_structure_summary}
+
+Existing README or Setup Snippet:
+```
+{readme_snippet}
+```
+
+Generate a structured repository overview covering:
+1. **Project Purpose & Likely Functionality**: What does this application do?
+2. **Key Technologies & Frameworks**: Observed from manifests and extensions.
+3. **Primary Architecture & Modules**: How the project is organized.
+4. **Candidate Entry-Points**: Where execution likely begins.
+5. **Inferred Setup & Run Instructions**: How to run it locally based on manifests/README.
+6. **Key Takeaways for a New Developer**: Where to start reading first.
+
+Label clearly which points are direct observations and which are AI interpretations.
